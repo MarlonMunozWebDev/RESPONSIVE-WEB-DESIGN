@@ -1,0 +1,290 @@
+.buscador {
+    display: flex;
+}
+
+.principal {
+    background-image: url(img/principal.jpg);
+    background-size: cover;
+    height: 65vh;
+}
+
+.principal-info {
+    float: right;
+    margin: 10rem;
+    color: #fff;
+}
+
+.principal-info h1 {
+    font-size: 3.5rem;
+}
+
+/*CARACTERISTICAS*/
+.caracteristica {
+    background: #E5E7E9;
+    padding: 2rem 1.5rem;
+}
+
+/*PROMOCIONES*/
+.promociones-titulo {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.promocion {
+    padding: 2rem;
+}
+
+.promocion-imagen img {
+    width: 12rem;
+}
+
+/*ANUNCIOS*/
+.anuncios-titulo {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.anuncio1 {
+    padding: 1rem 2rem 10rem 1rem;
+}
+
+.anuncio2 {
+    padding: 1rem 1rem 3rem 1rem;
+}
+
+.anuncio3 {
+    padding: 1rem 1rem 3rem 1rem;
+}
+
+.anuncio4 {
+    padding: 1.5rem;
+}
+
+/*PRODUCTOS*/
+.productos-titulo {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.producto {
+    padding: 1rem 2rem;
+}
+
+.producto-imagen img {
+    width: 12rem;
+}
+
+/*OFERTA*/
+.ofertas {
+    background: #E5E7E9;
+}
+
+.oferta-titulo {
+    padding: 2rem 0;
+}
+
+.oferta-imagen img {
+    width: 20rem;
+    transform: translateY(-2rem);
+}
+
+.oferta-info {
+    padding: 1.5rem;
+}
+
+/*BLOG*/
+.blog-titulo {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.noticia {
+    padding: 2rem 1rem;
+}
+
+.noticia-imagen img {
+    width: 22rem;
+}
+
+/*CONTACTO*/
+.contacto {
+    background: purple;
+    color: #fff;
+    padding: 3rem;
+}
+
+/*FOOTER*/
+.footer {
+    padding: 2rem 3rem 6rem 3rem;
+}
+
+.footer a {
+    display: block;
+}
+
+@media screen and (max-width: 1200px) {
+    .promocion-imagen img {
+        width: 10rem;
+    }
+
+    .producto-imagen img {
+        width: 10rem;
+    }
+
+    .noticia-imagen img {
+        width: 18rem;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .promocion-imagen img {
+        width: 7rem;
+    }
+
+    .producto-imagen img {
+        width: 7rem;
+    }
+
+    .noticia-imagen img {
+        width: 13rem;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    /*GLOBAL*/
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    /*PRINCIPAL*/
+    .principal {
+        height: 55vh;
+    }
+
+    .principal-info {
+        margin: 7rem;
+    }
+    
+    .principal-info h1 {
+        font-size: 3rem;
+    }
+
+    /*CARACTERISTICAS*/
+    .caracteristica {
+        font-size: 0.8rem;
+    }
+
+    /*PROMOCIONES*/
+    .promociones-titulo {
+        font-size: 0.8rem;
+    }
+
+    .promocion {
+        font-size: 0.8rem;
+    }
+
+    .promocion-imagen img {
+        width: 12rem;
+    }
+
+
+        /*BLOG*/
+    .blog-titulo {
+        padding: 2rem 0;
+        text-align: center;
+    }
+
+    .noticia {
+        padding: 2rem 1rem;
+    }
+
+    .noticia-imagen img {
+        width: 32rem;
+        height: 10rem;
+        object-fit: cover;
+    }
+
+    /*CONTACTO*/
+    .contacto {
+       font-size: 0.8rem;
+    }
+
+    /*FOOTER*/
+    .footer {
+        font-size: 0.8rem;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    /*GLOBALES*/
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    h5 {
+        font-size: 0.8rem;
+    }
+
+    .principal {
+        height: 60vh;
+    }
+
+    .principal-info {
+        margin: 6rem 2rem;
+    }
+
+    .principal h1 {
+        font-size: 2rem;
+    }
+
+    /*CARACTERISTICAS*/
+    .caracteristica {
+        font-size: 0.6rem;
+    }
+
+    /*PROMOCIONES*/
+    .promocion-imagen img {
+        width: 17rem;
+    }
+
+    /*PRODUCTOS*/
+    .producto-imagen img {
+        width: 17rem;
+    }
+
+    /*OFERTA*/
+    .oferta-imagen img {
+        width: 10rem;
+        transform: translateX(5rem);
+    }
+
+        /*BLOG*/
+ 
+    .noticia-imagen img {
+        width: 20.5rem;
+        height: 10rem;
+        object-fit: cover;
+    }
+
+    /*CONTACTO*/
+    .contacto {
+       font-size: 0.8rem;
+    }
+
+    /*FOOTER*/
+    .footer {
+        font-size: 0.8rem;
+    }
+
+}
+
